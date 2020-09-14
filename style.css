@@ -66,6 +66,12 @@ body.demos .container-fluid {
     max-width: 1080px
 }
 
+.logo{
+    font-size: 16px;
+    font-weight: initial;
+    font-family: cursive;
+}
+
 a {
     color: #1f1f1f;
     text-decoration: none !important;
@@ -2663,24 +2669,11 @@ select.mobile-device {
     background: #968f8f;
     z-index: 11000;
     position: fixed;
-    display: block
+    display: block;
 }
 
 
- @keyframes repet {
-  0% {
-    display: none;
-  }
-  25% {
-    display: block;
-  }
-  50% {
-    display: none;
-  }
-  100% {
-    display: block;
-  }
-}
+
 /*
 @keyframes loaderBlock {
   0%, 30% {
@@ -2710,17 +2703,31 @@ select.mobile-device {
   left: 25%;
   width: 50%;
   height: 80%;
-   animation-name: repet 1.2s infinite ease-in-out both;  
-  background: url(./images/icons/ico2.png) no-repeat center center;
+   animation-name: repet 1.2s infinite ease-in-out both;   
+   background: url(./images/icons/ico2.png) no-repeat center center; 
 
 }
+@keyframes repet {
+    0% {
+      transition: ;
+    }
+    25% {
+      display: block;
+    }
+    50% {
+      display: none;
+    }
+    100% {
+      display: block;
+    }
+  }
 .loader span {
   position: absolute;
   display: block;
   width: auto;
   height: auto;
-  /* animation-name: repet 1.2s infinite ease-in-out both;  
-  background: url(./images/icons/ico2.png) no-repeat center center; */
+  /* animation-name: repet 1.2s;   */
+  background: url(./images/icons/ico2.png) no-repeat center center; 
   /* background-color: #009bb7; */
   /* animation: loaderBlock 1.2s infinite ease-in-out both; */
 
