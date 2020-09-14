@@ -19,7 +19,7 @@
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	#mainNav {
-		background-color: #ffffff;
+		background-color: #fff;
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
