@@ -69,7 +69,7 @@ body.demos .container-fluid {
 .logo{
     font-size: 16px;
     font-weight: initial;
-    font-family: cursive;
+    margin-top: .5em;
 }
 
 a {
@@ -1665,8 +1665,8 @@ hr.invis1 {
 .text-hover{
 	position: absolute;
 	left: 40%;
-	bottom:30%;
-    padding: 15px 20px;
+	bottom:40%;
+    /* padding: 14px 20px; */
 	z-index: 99;
 }
 .text-hover h3, .text-hover h4{
@@ -2703,31 +2703,27 @@ select.mobile-device {
   left: 25%;
   width: 50%;
   height: 80%;
-   animation-name: repet 1.2s infinite ease-in-out both;   
-   background: url(./images/icons/ico2.png) no-repeat center center; 
+  animation-name: img;
+  animation-duration: 1seg;   
+  background: url(./images/icons/ico2.png) no-repeat center center; 
 
 }
-@keyframes repet {
-    0% {
-      transition: ;
+@keyframes img {
+    From {
+      transform: translateX(0%);
     }
-    25% {
-      display: block;
-    }
-    50% {
-      display: none;
-    }
-    100% {
-      display: block;
+    to {
+        transform: translateX(50%);
+      /* top: 100%; */
     }
   }
 .loader span {
   position: absolute;
-  display: block;
+  /* display: block; */
   width: auto;
   height: auto;
   /* animation-name: repet 1.2s;   */
-  background: url(./images/icons/ico2.png) no-repeat center center; 
+  /* background: url(./images/icons/ico2.png) no-repeat center center;  */
   /* background-color: #009bb7; */
   /* animation: loaderBlock 1.2s infinite ease-in-out both; */
 
